@@ -13,16 +13,19 @@ body {
     text-align: center;
     
     color: #FFF;
-    background: linear-gradient(to right, rgb(19, 106, 138), rgb(38, 120, 113));
+    background: linear-gradient(to right, rgb(3, 43, 62), rgb(173, 0, 0));
 }
 
 input {
     font-size: 2em;
     margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
 }
 
 .output {
     border: 1px solid #222;
     padding: 30px 15px;
     background-color: #0006;
+    border-radius: 10px;
 }
