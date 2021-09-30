@@ -10,12 +10,25 @@
 </head>
 
 <body>
+    <style>
+        .inputs{
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+            border-radius: 50px;
+        }
+        .output{
+            border-radius: 10px;
+        }
+    </style>
     <div id="app">
         <h1>{{ title }}</h1>
         <div>
             <input type="text" size="25" 
             placeholder="Digite para gerar..." 
-            :value="text" @input="onData">
+            :value="text" @input="onData" class="inputs">
         </div>
         <div v-if="text" class="output">
             <img :src="newQRCode" alt="QRCode">
